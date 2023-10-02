@@ -2,7 +2,6 @@ import pandas as pd
 import itertools
 import random
 
-# Assuming `pokemon_stats` is already defined and has "Types" as a column
 
 # Replace NaN values in the 'Types' column with ['Normal']
 pokemon_stats['Types'].fillna('Normal', inplace=True)
