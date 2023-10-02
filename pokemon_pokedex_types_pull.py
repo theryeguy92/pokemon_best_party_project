@@ -19,7 +19,6 @@ def get_all_pokemon_types():
     else:
         return None
 
-# Assuming `pokemon_stats` is already defined and has "Name" as the index
 
 # Get the types for all Pokémon
 types_dict = get_all_pokemon_types()
